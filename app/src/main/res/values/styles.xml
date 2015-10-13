@@ -1,0 +1,72 @@
+<resources>
+
+    <style name="Base.Theme.HMKCodeApp" parent="Theme.AppCompat.Light">
+
+        <item name="colorPrimary">@color/teal_500</item>
+
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/teal_400</item>
+
+        <!--   theme UI controls like checkboxes and text fields e.g. FloatActionButton -->
+        <item name="colorAccent">@color/teal_900</item>
+
+        <!-- Title Text Color -->
+        <item name="android:textColorPrimary">@color/my_primary_text</item>
+
+        <!-- color of the menu overflow icon (three vertical dots) -->
+        <item name="android:textColorSecondary">@color/my_secondary_text</item>
+
+
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+
+    <style name="Base.Theme.Test" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/teal_500</item>
+
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/teal_400</item>
+
+        <!--   theme UI controls like checkboxes and text fields e.g. FloatActionButton -->
+        <item name="colorAccent">@color/teal_900</item>
+
+        <!-- Title Text Color -->
+        <item name="android:textColorPrimary">@color/my_primary_text</item>
+
+        <!-- color of the menu overflow icon (three vertical dots) -->
+        <item name="android:textColorSecondary">@color/my_secondary_text</item>
+
+
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+
+    <style name="AppBaseTheme" parent="Base.Theme.HMKCodeApp">
+
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+
+    <style name="ProgressBarBig">
+        <item name="android:indeterminateDrawable">@drawable/progress_big</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+    </style>
+
+
+   <!-- <style name="TitleStyle">
+        <item name="android:textColor">@color/txt_title</item>
+        <item name="android:textSize">@dimen/list_item_title_size</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>-->
+
+
+</resources>

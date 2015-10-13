@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">豆瓣</string>
+    <string name="action_search">搜索</string>
+
+    <string-array name="tab_names">
+        <item>图书</item>
+        <item>电影</item>
+        <item>音乐</item>
+        <item>同城</item>
+        <item>广播</item>
+        <item>用户</item>
+        <item>日记</item>
+        <item>相册</item>
+        <item>活动</item>
+        <item>论坛</item>
+        <item>回复</item>
+        <item>旅游</item>
+
+    </string-array>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="load_error">加载失败,点击重试</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+</resources>
